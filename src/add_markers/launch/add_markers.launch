@@ -1,0 +1,4 @@
+<launch>
+    <arg name="isTest" default=""/>
+    <node name="add_markers" type="add_markers" pkg="add_markers" output="screen"  args="$(arg isTest)" />
+</launch>
